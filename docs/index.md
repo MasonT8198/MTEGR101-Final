@@ -3,6 +3,9 @@ For full source code visit [my github repository](https://github.com/MasonT8198/
 
 Welcome to my Self-Hosted Website! I hope you enjoy the experience! Here you'll find my vision for the future, and some of my reflections regarding the beginning of the semester!
 
+<figure markdown>
+  ![QR Code](assets/site-assets/QR-Code.png){ width="300" }
+</figure>
 
 <!-- Spacer for layout of the YT Video -->
 ##
