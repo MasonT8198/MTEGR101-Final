@@ -1,0 +1,50 @@
+site_name: Create Your Future
+site_url: https://masont8198.github.io/MTEGR101-Final/
+site_author: "Mason A. Thompson"
+copyright: Copyright &copy; 2023 Mason A. Thompson
+
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+  font: 
+    text: Gulzar
+    code: Gulzar
+  features:
+    - navigation.sections
+    - navigation.instant
+  include_search_page: false
+  search_index_only: true
+  logo: assets/site-assets/favicon.png
+  favicon: assets/site-assets/favicon.png
+
+extra:
+  # Home URL, Social Blade
+  homepage: https://masont8198.github.io/MTEGR101-Final/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MasonT8198
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:math250@uky.edu
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - mkdocs-video:
+      is_video: True
+      video_autoplay: True
+
+nav:
+  - Home: https://masont8198.github.io/MTEGR101-Final/
+  - Documentation:
+    - Has My Vision Changed?: documentation/My-Essay.md
+    - How Can I Succeed?: documentation/My-Major-Consideration.md
+    - What being a Successful Engineer Means to Me: documentation/Successful-Engineer.md
+    - What's my Roadmap?: documentation/My-Roadmap.md
+  - Extras:
+    - Github: https://github.com/MasonT8198
+    - Resources and Attributions: documentation/Resources-and-Attributions.md
